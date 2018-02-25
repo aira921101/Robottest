@@ -12,7 +12,7 @@ ${SEARCH_TERM} =  World of Warcraft
 *** Test Cases ***
 User must sign in to check out
     [Documentation]  This is a improved version of the first script
-    [Tags]  current
+    [Tags]  Refactor  Final
 
     AmazonApp.Search for Products
     AmazonApp.Select Product from Search Results

@@ -25,7 +25,7 @@ My very first Robot Framework test
     Close Browser
 
 First script refactor: User:Defined keywords
-    [Tags]  Current
+    [Tags]  Refactor  Keywords
     Search Products
     Select Product
     Add to Cart
