@@ -9,7 +9,8 @@ Test Teardown  End Web Test
 My very first Robot Framework test
     [Documentation]  This is the first script created using RF
     [Tags]  FirstScript
-
+    [Setup]
+    [Teardown]
     Create Webdriver  Chrome
     Go To  https://www.amazon.com.mx/
     Wait Until Page Contains  Mi Amazon.com.mx
