@@ -34,12 +34,12 @@ Enter Credentials unsuccessfully
     Enter Credentials  Bob McTest  AutomationSucks!
     page should contain  Invalid credentials
 
-Example of the structure of a test case
-    [Tags]  Demo  Intro
-    ${user_name} =  get value from user  Please enter your name
-    MyResources.Greet the audience  ${user_name}
-    ${fruit_selection} =  get selection from user  Do you want a fruit, ${user_name}?  @{FRUIT}
-    Log  ${fruit_selection} are delicious!
+#Example of the structure of a test case
+#    [Tags]  Demo  Intro
+#    ${user_name} =  get value from user  Please enter your name
+#    MyResources.Greet the audience  ${user_name}
+#    ${fruit_selection} =  get selection from user  Do you want a fruit, ${user_name}?  @{FRUIT}
+#    Log  ${fruit_selection} are delicious!
 
 *** Keywords ***
 
