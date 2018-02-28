@@ -29,7 +29,7 @@ Enter credentials successfully
     Enter Credentials  Bob McTest  AutomationIsAwesome
     wait until page contains  Welcome
 
-Enter Credentials unseccssfully
+Enter Credentials unsuccessfully
     [Tags]  Demo  Negative
     Enter Credentials  Bob McTest  AutomationSucks!
     page should contain  Invalid credentials
