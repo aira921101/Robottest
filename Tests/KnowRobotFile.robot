@@ -40,7 +40,7 @@ Enter Credentials unsuccessfully
 #    MyResources.Greet the audience  ${user_name}
 #    ${fruit_selection} =  get selection from user  Do you want a fruit, ${user_name}?  @{FRUIT}
 #    Log  ${fruit_selection} are delicious!
-
+#
 *** Keywords ***
 
 Enter Credentials
