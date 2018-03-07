@@ -25,22 +25,22 @@ Test Teardown  Log  Finished execution of test case ${TEST_NAME}
 Enter credentials successfully
     # Tags can be added to scripts so it is easier to execute certain scripts if needed
     # Try to have your scripts properly tagged. This can help you with statistics in the report
-    [Tags]  Demo  Positive
+    [Tags]  Demo  Positive  NoExecute
     Enter Credentials  Bob McTest  AutomationIsAwesome
     wait until page contains  Welcome
 
 Enter Credentials unsuccessfully
-    [Tags]  Demo  Negative
+    [Tags]  Demo  Negative  NoExecute
     Enter Credentials  Bob McTest  AutomationSucks!
     page should contain  Invalid credentials
 
-#Example of the structure of a test case
-#    [Tags]  Demo  Intro
-#    ${user_name} =  get value from user  Please enter your name
-#    MyResources.Greet the audience  ${user_name}
-#    ${fruit_selection} =  get selection from user  Do you want a fruit, ${user_name}?  @{FRUIT}
-#    Log  ${fruit_selection} are delicious!
-#
+Example of the structure of a test case
+    [Tags]  Demo  Intro  NoExecute
+    ${user_name} =  get value from user  Please enter your name
+    MyResources.Greet the audience  ${user_name}
+    ${fruit_selection} =  get selection from user  Do you want a fruit, ${user_name}?  @{FRUIT}
+    Log  ${fruit_selection} are delicious!
+
 *** Keywords ***
 
 Enter Credentials
