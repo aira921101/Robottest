@@ -17,8 +17,20 @@ ${REST_API_URL}         http://jsonplaceholder.typicode.com
 SOAP Webservice Operation
     Call Web Service with Operation
 
-REST Service Operation
+REST_Service_Operation
     Call Rest Service
+
+Basic_REST_Test
+    [Documentation]    Get the response from API
+    Create Session    test    ${REST_API_URL}
+    ${response}  Get Request  test  /price/GASDESM
+    Log    ${response.text}
+    #Should Be Equal As Strings    ${response.status_code}    200
+    #log    ${response.text}
+    :FOR  ${item}  IN  @{response}
+    \  Log  ${item}
+    log  ${response[0]}
+    log  ${response[1]}
 
 *** Keywords ***
 Call Web Service with Operation

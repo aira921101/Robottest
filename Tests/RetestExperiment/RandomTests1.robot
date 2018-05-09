@@ -1,4 +1,7 @@
 *** Settings ***
+Metadata  First run  [first_run_log.html|first_run_log.html]
+Metadata  Second run  [second_run_log.html|second_run_log.html]
+
 *** Variables ***
 #robot --outputdir Tests/RetestExperiment --output original.xml Tests/RetestExperiment
 #robot --rerunfailed Tests/RetestExperiment/original.xml  --outputdir Tests/RetestExperiment --output rerun.xml Tests/RetestExperiment
