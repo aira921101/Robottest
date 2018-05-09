@@ -1,6 +1,6 @@
 *** Settings ***
 Documentation  Demo for robot framework guide
-Library  Selenium2Library
+Library  SeleniumLibrary
 Test Setup  Begin Web Test
 Test Teardown  End Web Test
 *** Variables ***
