@@ -8,7 +8,7 @@ Test Teardown  Common.End Web Test
 *** Variables ***
 ${BROWSER} =  Chrome
 ${TEST_URL} =  https://www.amazon.com.mx
-${SEARCH_TERM} =  World of Warcraft
+${SEARCH_TERM} =  ps4
 ${EMAIL} =  aira921101hasvmn05@gmail.com
 ${PASSWORD} =  DrWho2019
 *** Test Cases ***

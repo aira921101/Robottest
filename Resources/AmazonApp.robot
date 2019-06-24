@@ -25,3 +25,4 @@ Add Product to Cart
 Begin Checkout
     CartPage.Proceed to Checkout
     SignInPage.Verify Page Loaded
+    SignInPage.Sign In
