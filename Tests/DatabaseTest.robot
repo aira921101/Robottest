@@ -4,7 +4,7 @@ Library  DatabaseLibrary
 Test Setup  Connect to DB
 Test Teardown  Disconnect from DB
 *** Variables ***
-${PATH_DB} =  ..\\music\\music.db
+${PATH_DB} =  https:\\github.com\\aira921101\\Robottest\\blob\\master\\music\\music.db
 @{TABLES_NAMES} =  songs  albums  artists
 @{DESIRED_ARTISTS} =  Steve Vai  Joe Satriani  Jimi Hendrix
 @{UNDESIRED_ARTISTS} =  Daddy Yankee  Calle 13  Don Omar
