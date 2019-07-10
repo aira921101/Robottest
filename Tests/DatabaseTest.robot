@@ -4,7 +4,7 @@ Library  DatabaseLibrary
 Test Setup  Connect to DB
 Test Teardown  Disconnect from DB
 *** Variables ***
-${PATH_DB} =  C:\\Users\\joseangel.avila\\OneDrive - Accenture\\Documentos\\Robot Framework\\music\\music.db
+${PATH_DB} =  ..\\music\\music.db
 @{TABLES_NAMES} =  songs  albums  artists
 @{DESIRED_ARTISTS} =  Steve Vai  Joe Satriani  Jimi Hendrix
 @{UNDESIRED_ARTISTS} =  Daddy Yankee  Calle 13  Don Omar

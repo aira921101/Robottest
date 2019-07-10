@@ -5,6 +5,7 @@ Resource  ../Resources/PO/SearchResultsPage.robot
 Resource  ../Resources/PO/CartPage.robot
 Resource  ../Resources/PO/ProductPage.robot
 Resource  ../Resources/PO/SignInPage.robot
+
 *** Variables ***
 
 *** Keywords ***

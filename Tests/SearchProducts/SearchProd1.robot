@@ -1,14 +1,14 @@
 *** Settings ***
 Documentation  Demo for robot framework guide - Improved script
-Resource  ../Resources/AmazonApp.robot
-Resource  ../Resources/Common.robot
+Resource  ../../Resources/AmazonApp.robot
+Resource  ../../Resources/Common.robot
 Test Setup  Common.Begin Web Test
 Test Teardown  Common.End Web Test
 
 *** Variables ***
 ${BROWSER} =  Chrome
 ${TEST_URL} =  https://www.amazon.com.mx
-${SEARCH_TERM} =  ps4
+${SEARCH_TERM} =  canon
 ${EMAIL} =  aira921101hasvmn05@gmail.com
 ${PASSWORD} =  DrWho2019
 *** Test Cases ***
